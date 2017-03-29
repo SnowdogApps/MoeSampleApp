@@ -1,0 +1,1 @@
+{"output":"src/main/java","platform":"iOS","bindings":[{"type":"header","name":"RepositoryListViewController","objcClassGenerationMode":"Binding","headerPath":"xcode/MoeSampleApp","headerSearchPaths":[],"userHeaderSearchPaths":[],"frameworkSearchPaths":[],"packageBase":"pl.snowdog","importCode":"#import \"RepositoryListViewController.h\""}]}
