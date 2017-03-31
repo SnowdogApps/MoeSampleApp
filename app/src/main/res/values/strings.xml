@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MoeSampleApp</string>
+    <string name="repository_title">Repositories</string>
 </resources>
