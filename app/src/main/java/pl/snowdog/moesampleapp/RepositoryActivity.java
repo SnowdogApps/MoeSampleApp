@@ -42,6 +42,5 @@ public class RepositoryActivity extends AppCompatActivity implements IRepository
         mAllRepositories = allRepositories;
         mRepositoriesAdapter = new RepositoriesAdapter(mAllRepositories);
         mRecyclerView.setAdapter(mRepositoriesAdapter);
-        //mRepositoriesAdapter.notifyDataSetChanged();
     }
 }
