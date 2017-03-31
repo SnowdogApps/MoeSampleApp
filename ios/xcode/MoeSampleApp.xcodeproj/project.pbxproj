@@ -11,7 +11,6 @@
 		58C6F5341DA66CB600309CB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C6F5331DA66CB600309CB6 /* Assets.xcassets */; };
 		58C6F5371DA66CB600309CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C6F5351DA66CB600309CB6 /* LaunchScreen.storyboard */; };
 		58F091155C9243BA21539297 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B25F8935A07838DD79B22D1F /* main.cpp */; };
-		927D2A9C1E8AAC9E006FA8B1 /* CommitsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 927D2A9B1E8AAC9E006FA8B1 /* CommitsListViewController.m */; };
 		92D4EB731E8A566100CDC81C /* RepositoryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D4EB721E8A566100CDC81C /* RepositoryListViewController.m */; };
 		92D4EB751E8A568500CDC81C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92D4EB741E8A568500CDC81C /* MainStoryboard.storyboard */; };
 		E0D88F0F0CA7B91E3A25A0AE /* moe-main-interfaces.m in Sources */ = {isa = PBXBuildFile; fileRef = 191C74004CC68EA6DC0FF836 /* moe-main-interfaces.m */; };
@@ -25,8 +24,6 @@
 		58C6F5331DA66CB600309CB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58C6F5361DA66CB600309CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58C6F5381DA66CB600309CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		927D2A9A1E8AAC9E006FA8B1 /* CommitsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommitsListViewController.h; sourceTree = "<group>"; };
-		927D2A9B1E8AAC9E006FA8B1 /* CommitsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommitsListViewController.m; sourceTree = "<group>"; };
 		92D4EB711E8A566100CDC81C /* RepositoryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepositoryListViewController.h; sourceTree = "<group>"; };
 		92D4EB721E8A566100CDC81C /* RepositoryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepositoryListViewController.m; sourceTree = "<group>"; };
 		92D4EB741E8A568500CDC81C /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
@@ -98,8 +95,6 @@
 				92D4EB711E8A566100CDC81C /* RepositoryListViewController.h */,
 				92D4EB721E8A566100CDC81C /* RepositoryListViewController.m */,
 				92D4EB741E8A568500CDC81C /* MainStoryboard.storyboard */,
-				927D2A9A1E8AAC9E006FA8B1 /* CommitsListViewController.h */,
-				927D2A9B1E8AAC9E006FA8B1 /* CommitsListViewController.m */,
 			);
 			path = MoeSampleApp;
 			sourceTree = "<group>";
@@ -260,7 +255,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				58F091155C9243BA21539297 /* main.cpp in Sources */,
-				927D2A9C1E8AAC9E006FA8B1 /* CommitsListViewController.m in Sources */,
 				92D4EB731E8A566100CDC81C /* RepositoryListViewController.m in Sources */,
 				E0D88F0F0CA7B91E3A25A0AE /* moe-main-interfaces.m in Sources */,
 			);
