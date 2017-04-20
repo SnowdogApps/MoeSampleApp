@@ -12,7 +12,7 @@
 		58C6F5371DA66CB600309CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C6F5351DA66CB600309CB6 /* LaunchScreen.storyboard */; };
 		58F091155C9243BA21539297 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B25F8935A07838DD79B22D1F /* main.cpp */; };
 		92D4EB731E8A566100CDC81C /* RepositoryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D4EB721E8A566100CDC81C /* RepositoryListViewController.m */; };
-		92D4EB751E8A568500CDC81C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92D4EB741E8A568500CDC81C /* MainStoryboard.storyboard */; };
+		92D4EB751E8A568500CDC81C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92D4EB741E8A568500CDC81C /* Main.storyboard */; };
 		E0D88F0F0CA7B91E3A25A0AE /* moe-main-interfaces.m in Sources */ = {isa = PBXBuildFile; fileRef = 191C74004CC68EA6DC0FF836 /* moe-main-interfaces.m */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +26,7 @@
 		58C6F5381DA66CB600309CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92D4EB711E8A566100CDC81C /* RepositoryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepositoryListViewController.h; sourceTree = "<group>"; };
 		92D4EB721E8A566100CDC81C /* RepositoryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepositoryListViewController.m; sourceTree = "<group>"; };
-		92D4EB741E8A568500CDC81C /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		92D4EB741E8A568500CDC81C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B25F8935A07838DD79B22D1F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		D7D7FDE6EFDC0515439F08ED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,7 +94,7 @@
 				58C6F5271DA66CB600309CB6 /* Supporting Files */,
 				92D4EB711E8A566100CDC81C /* RepositoryListViewController.h */,
 				92D4EB721E8A566100CDC81C /* RepositoryListViewController.m */,
-				92D4EB741E8A568500CDC81C /* MainStoryboard.storyboard */,
+				92D4EB741E8A568500CDC81C /* Main.storyboard */,
 			);
 			path = MoeSampleApp;
 			sourceTree = "<group>";
@@ -202,7 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92D4EB751E8A568500CDC81C /* MainStoryboard.storyboard in Resources */,
+				92D4EB751E8A568500CDC81C /* Main.storyboard in Resources */,
 				58C6F5371DA66CB600309CB6 /* LaunchScreen.storyboard in Resources */,
 				58C6F5341DA66CB600309CB6 /* Assets.xcassets in Resources */,
 			);
