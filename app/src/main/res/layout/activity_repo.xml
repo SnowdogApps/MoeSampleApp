@@ -7,7 +7,7 @@
     tools:context="pl.snowdog.moesampleapp.RepositoryActivity">
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/repository_recycler_view"
+        android:id="@+id/rv_repositories"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 </RelativeLayout>

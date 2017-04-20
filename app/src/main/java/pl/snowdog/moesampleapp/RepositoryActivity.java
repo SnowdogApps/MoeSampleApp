@@ -27,7 +27,7 @@ public class RepositoryActivity extends AppCompatActivity implements IRepository
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_repo);
-        mRecyclerView = (RecyclerView) findViewById(R.id.repository_recycler_view);
+        mRecyclerView = (RecyclerView) findViewById(R.id.rv_repositories);
         mLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(mLayoutManager);
         DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(mRecyclerView.getContext(),
